@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(to bottom, black 60%, red);
+    background-size: cover;
+    align-items: center;
+}
+.main-heading{
+    color: white;
+   font-family: 'poppins';
+    font-size: 40px;
+    text-align: center;
+}
+ section #my-video {
+    width: 70%;
+    height: 60%;
+    margin-left: 200px;
+    margin-top: 30px;
+    border:  2px solid transparent;
+    border-radius: 3px;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white ;
+
+}
+.star-rating {
+    display: flex;
+    justify-content: center;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 40px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star-rating input:checked ~ label {
+    color: gold;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: gold;
+}
+form {
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-family: 'Poppins';
+    padding-top: 20px;
+    color: white;
+}
+
+
+
+
